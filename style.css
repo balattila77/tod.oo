@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+body {
+    background-color: #fffbe9;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    color: #AD8B73;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+}
+
+section,
+#logo {
+    max-width: 500px;
+    width: 80vw;
+    margin: 20px auto;
+}
+
+img {
+    width: 20px;
+}
+
+section {
+    padding: 30px 20px;
+    background-color: #fff;
+    box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.2);
+}
+
+.col {
+    position: relative;
+}
+
+#itemInput {
+    margin-bottom: 30px;
+    border: 1px solid #CEAB93;
+    color: #AD8B73;
+}
+
+#itemInput:focus {
+    border-color: #AD8B73;
+}
+
+::placeholder {
+    color: #AD8B73;
+    opacity: .8;
+}
+
+ :-ms-input-placeholder {
+    color: #AD8B73;
+    opacity: .8;
+}
+
+::-ms-input-placeholder {
+    color: #AD8B73;
+    opacity: .8;
+}
+
+#addBtn {
+    position: absolute;
+    top: -8px;
+    right: 30px;
+    font-weight: 700;
+    color: #CEAB93;
+    font-size: 32px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+#addBtn:hover {
+    color: #AD8B73;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 10px 20px;
+    list-style-type: none;
+    border: 1px solid #AD8B73;
+    margin-bottom: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+    position: relative;
+    color: #AD8B73;
+}
+
+li i {
+    margin-right: 10px;
+    color: #AD8B73;
+    transition: all .2s;
+}
+
+li.done {
+    border: 1px solid #CEAB93;
+    color: #CEAB93;
+    text-decoration: line-through;
+}
+
+.fa-circle-check {
+    color: #CEAB93;
+}
+
+.fa-trash {
+    color: #CEAB93;
+    position: absolute;
+    right: 18px;
+    top: 13px;
+    font-size: 1.2em;
+    transition: all .2s;
+}
+
+.fa-trash:hover {
+    color: #AD8B73;
+}
